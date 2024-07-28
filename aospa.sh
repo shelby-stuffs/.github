@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf .repo/
-repo init -u https://github.com/AOSPA/manifest -b uvite --git-lfs
+repo init -u https://github.com/AOSPA/manifest -b uvite
 git clone https://github.com/shelby-stuffs/manifest.git -b uvite .repo/local_manifests
 /opt/crave/resync.sh
 export TZ=Europe/Samara
